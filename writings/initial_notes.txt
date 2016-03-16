@@ -1,0 +1,15 @@
+
+Images (trained on ImageNet?) to ``concepts'' (CNN)
+Video to dialogue via concepts (in order to train the concept-dialogue connection) -> possibly also need a dialogue-concept classifier (ideally with images)
+Possibly topic modelling for dialogue
+Using novels for corpus? (Words surrounding the dialogue may help with context to infer the concepts involved)
+
+We will then have a mapping from images to concepts, and from concepts to dialogues/quotes.  We then would want to train (possibly via RL) a ``scrambler'' that maps an image concept to a different concept, so that given an image, the complete system will generate a ``caption'' (bit of dialogue) that corresponds to some concept that is related in a funny way to the source image concept.
+
+Computer vision to compute image to sketching
+
+We will also want to be able to generate images related to concepts, and to hybridize images between concepts (perhaps only at the sketch level - combine elements from one thing into the other)
+
+Tasks:
+* Corpus collection
+* Deep learning architecture

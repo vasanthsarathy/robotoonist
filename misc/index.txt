@@ -1,0 +1,3 @@
+Index
+
+This folder contains misc databases and information helpful for the project.
